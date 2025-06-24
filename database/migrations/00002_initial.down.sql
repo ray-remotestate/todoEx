@@ -1,0 +1,9 @@
+DROP INDEX IF EXISTS active_todo;
+DROP TABLE IF EXISTS todo;
+
+DROP TABLE IF EXISTS user_sessions;
+
+DROP INDEX IF EXISTS active_user;
+DROP TABLE IF EXISTS users;
+
+DROP EXTENSION IF EXISTS "pgcrypto";
