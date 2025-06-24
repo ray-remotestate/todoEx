@@ -47,12 +47,3 @@ func main() {
 	}
 	logrus.Info("System is shut. Run again.")
 }
-
-/*
-	1. Create Server
-	2. Routing
-	3. Connect to DB
-	4. Migration
-	5. Run the server
-	6. Shut down the server
-*/
